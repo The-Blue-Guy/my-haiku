@@ -6,7 +6,6 @@ function randomize() {
 
     // affect the whole grid
     grid[0].style.transform = `rotate(${Math.random() * 360}deg)`;
-    ope
 
     // just the grid divs
     divs.forEach(function (div) {
@@ -23,7 +22,6 @@ function randomize() {
         }
 
         div.style.transform = `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg)`;
-        
     });
 }
 document.addEventListener("click", randomize);
